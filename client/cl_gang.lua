@@ -282,7 +282,7 @@ CreateThread(function()
                 exports['qb-target']:AddBoxZone(gang.."-GangMenu"..index, data.coords, data.length, data.width, {
                     name = gang.."-GangMenu"..index,
                     heading = data.heading,
-                    -- debugPoly = true,
+                    -- debugPoly = false,
                     minZ = data.minZ,
                     maxZ = data.maxZ,
                 }, {
